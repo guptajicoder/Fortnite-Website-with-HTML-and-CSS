@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wallpaper Download</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: orange;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .wallpaper-container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .wallpaper-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .wallpaper-gallery img {
+            width: 300px;
+            height: auto;
+            border-radius: 6px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .wallpaper-gallery img:hover {
+            transform: scale(1.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: orange;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Wallpaper Download</h1>
+        <p>Click on the wallpapers to download</p>
+    </header>
+
+    <div class="wallpaper-container">
+        <div class="wallpaper-gallery">
+            <a href="wallpaper1.jpg" download>
+                <img src="wp3147279-fortnite-season-5-wallpapers.png" alt="Wallpaper 1">
+            </a>
+            <a href="wallpaper2.jpg" download>
+                <img src="wp6266506-raven-fortnite-desktop-wallpapers.png" alt="Wallpaper 2">
+            </a>
+            <a href="wallpaper3.jpg" download>
+                <img src="wp6555145-fortnite-4k-hd-wallpapers.jpg" alt="Wallpaper 3">
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Wallpaper Download - All rights reserved</p>
+    </footer>
+</body>
+</html>
